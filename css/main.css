@@ -1,12 +1,17 @@
 body {
   	font-weight: 300;
-  	font-family: 'Roboto', sans-serif;
-  	color:#978ca5;
+  	font-family: 'IBM Plex Mono', monospace;
+  	color:white;
+  	background-color: #0C120C;
 }
 
 body a {
-	color: #1FBFB7;
+	color: #F90292;
 
+}
+
+p {
+	font-size: 1rem;
 }
 
 h2, h3, h4, h5 {
@@ -15,15 +20,15 @@ h2, h3, h4, h5 {
 
 h1 {
 	font-weight: 300;
-	font-size: 2.0rem;
+	font-size: 3.0rem;
 }
 
 footer {
-	color: #978ca5;
+	color: white;
 }
 
 .light-gray {
-	color: 	#DCDCDC;
+	color: 	#3a0214;
 }
 
 .about a {
@@ -31,7 +36,7 @@ footer {
 }
 
 .about a:hover {
-	color: #600C94;
+	color: #321325;
 	font-weight: 400;
 }
 
@@ -45,80 +50,56 @@ footer {
 }
 
 .background {
-	background-color: #0e021d;
 	padding-top: 3%;
 	padding-bottom: 2%;
 	border: none;
 }
 
-.bg-white {
-	background-color: white;
+.big_image {
+	background-image: url("../image/underground.jpg");
+}
+
+.bg-dark {
+	background-color: #0C120C;
+	color: #f2e1eb;
 	border: none;
-	padding-top: 3%;
+	padding-top: 6%;
 	padding-bottom: 3%;
 }
 
-.background-light {
-	background-color: #292929;
+.bg-medium {
+	background-color: rgba(50, 19, 37, 1.0);
+	color: #f2e1eb;
+	border: none;
+	padding-top: 2%;
+	padding-bottom: 0%;
 }
 
-.background-light-2 {
-	background-color: rgba(216, 247, 245, 0.99);
-	color: #2e085d;
+.bg-green {
+	background-color: #3AB795; 
+	color: #f2e1eb;
+	border: none;
+	padding-top: 0%;
+	padding-bottom: 0%;
 }
 
-.background-light-3 {
-	background-color: #ececec;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	opacity: 1;
-}
-
-.teal-dark {
-	color: #1FBFB7;
-}
-
-.teal-dark-bg {
-	background-color: #1FBFB7;
+.bg-blue {
+	background-color: #C1F7DC;
+	color: #0C120C;
 }
 
 .name {
-	font-weight: 500;
-	font-size: 2.0rem;
-}
-
-
-.techtalks {
-	color: #EA1C10;
-}
-
-.resume p, ul, li {
-	font-size: 0.9rem;
-}
-
-.resume h5 {
-	font-size: 0.8rem;
-}
-
-.resume h3 {
-	color: #1FBFB7;
-}
-
-.resume h3 strong {
-	font-weight: 500;
-}
-
-.resume h1 {
-	color: #1FBFB7;
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 600;
 	font-size: 2.5rem;
 }
 
-.resume body {
-	background-color: white;
+.bg-image {
+	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.85), rgba(252, 23, 2, 0.9)), url("../image/underground_sm.jpeg");
 }
 
-.resume strong {
-	font-weight: 400;
+.small_image {
+	background-image: url("../image/underground_sm.jpeg");
 }
 
 .main-page p, ul, li {
@@ -157,19 +138,19 @@ hr {
 
 
 .elem-margin {
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	padding-top: 20px;
 	margin-left: 4vw;
 	margin-right: 4vw;
 }
 
 .first-elem{
-	padding-bottom: 20px;
 	padding-top: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	margin-left: 4vw;
 	margin-right: 4vw;
+	color:#f0f7f6;
 }
 
 @media screen and (max-width: 920px) {
@@ -187,7 +168,6 @@ hr {
 	}
 
 	.first-elem{
-		padding-bottom: 20px;
 		padding-top: 0px;
 		margin-bottom: 0px;
 		margin-top: 0px;
@@ -200,9 +180,9 @@ hr {
 	color: #2e085d;
 }
 
-.purple-dark-bg {
-	background-color: #0e021d;
-	color: #603298;
+.dark-bg {
+	background-color: black;
+	color: white;
 }
 
 .footer-elem{
@@ -213,11 +193,11 @@ hr {
 }
 
 .first-elem a {
-	color: #1FBFB7;
+	color: #f0f7f6;
 }
 
 .first-elem a:hover {
-	color: #603298;
+	color: #321325;
 }
 
 .icon-fa {
@@ -235,11 +215,11 @@ hr {
 }
 
 .nav-elem a {
-	color: #F8EBF1;
+	color: #ffffbe;
 }
 
 .nav-elem a:hover {
-	color: #7D11BF;
+	color: #321325;
 	text-decoration: none;
 }
 
@@ -254,12 +234,13 @@ header {
 }
 
 .intro-bt {
-	padding-bottom: 10%;
+	padding-bottom: 2%;
 	border: none;
 }
 
 .nav-item {
-	background-color: white;
+	background-color: #C1F7DC;
+	font-weight: 500;
 	color: white;
 	width: 90%;
 	padding-left: 5%;
@@ -268,7 +249,7 @@ header {
 }
 
 .nav-item a {
-	color:#1FBFB7;
+	color: #321325;
 }
 
 .contact-align {
