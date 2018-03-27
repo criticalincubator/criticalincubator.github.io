@@ -6,7 +6,7 @@ body {
 }
 
 body a {
-	color: #F90292;
+	color: rgba(249, 2, 146, 1.0);
 
 }
 
@@ -24,12 +24,9 @@ h1 {
 }
 
 footer {
-	color: white;
+	background-color: #0C120C;
 }
 
-.light-gray {
-	color: 	#3a0214;
-}
 
 .about a {
 	font-weight: 400;
@@ -60,38 +57,40 @@ footer {
 }
 
 .bg-dark {
+	color: #0C120C;
 	background-color: #0C120C;
-	color: #f2e1eb;
 	border: none;
 	padding-top: 6%;
 	padding-bottom: 3%;
 }
 
 .bg-medium {
-	background-color: rgba(50, 19, 37, 1.0);
-	color: #f2e1eb;
+	background-color: #541388;
+	color: #F1E9DA;
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 0%;
 }
 
 .bg-green {
-	background-color: #3AB795; 
-	color: #f2e1eb;
+	background-color: #320D6D; 
+	color: #F1E9DA;
 	border: none;
 	padding-top: 0%;
 	padding-bottom: 0%;
 }
 
 .bg-blue {
-	background-color: #C1F7DC;
-	color: #0C120C;
+	background-color: #023C40;
+	color: #F1E9DA;
+	border: none;
 }
 
 .name {
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 600;
 	font-size: 2.5rem;
+	color:#F1E9DA;
 }
 
 .bg-image {
@@ -215,7 +214,7 @@ hr {
 }
 
 .nav-elem a {
-	color: #ffffbe;
+	color: #F1E9DA;
 }
 
 .nav-elem a:hover {
@@ -239,7 +238,8 @@ header {
 }
 
 .nav-item {
-	background-color: #C1F7DC;
+	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 1.0), rgba(249, 2, 146, 1.0));
+/*	background-color: #337CA0;*/
 	font-weight: 500;
 	color: white;
 	width: 90%;
@@ -249,7 +249,7 @@ header {
 }
 
 .nav-item a {
-	color: #321325;
+	color: #F1E9DA;
 }
 
 .contact-align {
