@@ -28,7 +28,7 @@ footer {
 }
 
 .bgbody {
-	background-color: #F1E9DA;
+	background-color: #f9f4ea;
 }
 
 .about a {
@@ -69,45 +69,35 @@ footer {
 
 hr.haar {
 	border: 0;
-    height: 5px;
-    width: 80vw;
-    background: #FFD447;
-    margin-left: 10vw;
-    margin-right: 20vw;
-/*    background-image: linear-gradient(to right, #ccc, yellow, #ccc);*/
+    height: 12px;
+    width: 100vw;
+    background: #FBFF12;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+hr.haar_dun {
+	border: 0;
+    height: 1px;
+    width: 100vw;
+    background: #FBFF12;
+    border-radius: 6px;
+    margin: 0 auto;
 }
 
 .bg-medium {
-	background-color: #F1E9DA;
+	background-color: #f9f4ea;
+	/*background-image: linear-gradient(to bottom right, #FBFF12,  #F1E9DA, #F1E9DA,#F1E9DA, #F1E9DA, #FBFF12);*/
 	color: #541388;
 	border: none;
 /*	border-bottom: 4px solid yellow;*/
-	padding-top: 2%;
-	padding-bottom: 0%;
+
 }
 
-.bg-last {
-	background-color: #F1E9DA;
-	color: #541388;
-	border: none;
-	padding-top: 2%;
-	padding-bottom: 0%;
+.bg-yellow {
+	background-color: #fffcf5;
 }
 
-
-.bg-green {
-	background-color: #320D6D; 
-	color: #F1E9DA;
-	border: none;
-	padding-top: 0%;
-	padding-bottom: 0%;
-}
-
-.bg-blue {
-	background-color: #023C40;
-	color: #F1E9DA;
-	border: none;
-}
 
 .name {
 	font-family: 'IBM Plex Mono', monospace;
@@ -140,16 +130,11 @@ hr.haar {
 	float: right;
 }
 
-.border-image {
-	box-shadow: 6px 6px 10px gray;
+.border {
+	border: none;
 }
 
-hr {
-  margin: 0 auto;
-  width: 95vw;
-  transition: border-color 1.5s ease-in-out;
-  opacity: .8;
-}
+
 
 .box-margin {
 	padding-top: 5vh;
