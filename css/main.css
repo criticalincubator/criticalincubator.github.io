@@ -2,7 +2,7 @@ body {
   	font-weight: 300;
   	font-family: 'IBM Plex Mono', monospace;
   	color:white;
-  	background-color: #0C120C;
+  	background-color: #541388;
 }
 
 body a {
@@ -24,9 +24,12 @@ h1 {
 }
 
 footer {
-	background-color: #0C120C;
+	background-color: #541388;
 }
 
+.bgbody {
+	background-color: #F1E9DA;
+}
 
 .about a {
 	font-weight: 400;
@@ -58,19 +61,39 @@ footer {
 
 .bg-dark {
 	color: #0C120C;
-	background-color: #0C120C;
+	background-color: #541388;
 	border: none;
 	padding-top: 6%;
 	padding-bottom: 3%;
 }
 
+hr.haar {
+	border: 0;
+    height: 5px;
+    width: 80vw;
+    background: #FFD447;
+    margin-left: 10vw;
+    margin-right: 20vw;
+/*    background-image: linear-gradient(to right, #ccc, yellow, #ccc);*/
+}
+
 .bg-medium {
-	background-color: #541388;
-	color: #F1E9DA;
+	background-color: #F1E9DA;
+	color: #541388;
+	border: none;
+/*	border-bottom: 4px solid yellow;*/
+	padding-top: 2%;
+	padding-bottom: 0%;
+}
+
+.bg-last {
+	background-color: #F1E9DA;
+	color: #541388;
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 0%;
 }
+
 
 .bg-green {
 	background-color: #320D6D; 
