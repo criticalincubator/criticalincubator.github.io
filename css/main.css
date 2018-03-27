@@ -27,6 +27,43 @@ footer {
 	background-color: #541388;
 }
 
+.hack_event{
+	background-size: 580px;
+	background-image: linear-gradient(to top, rgba(249, 2, 146, 0.8), rgba(252, 23, 2, 0.8)), url("../image/underground_sm.jpeg");
+}
+
+.events h3 {
+	font-weight: 800;
+}
+
+
+.events-text {
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+	padding: 1% 10% 2% 10%;
+	color: #541388;
+	background-image: linear-gradient(to bottom right, #f9f4ea, rgba(252, 23, 2, 0.05));
+	margin-bottom: 15%;
+}
+
+.events-text p {
+	font-size: 0.8rem;
+	height: 20vh;
+}
+
+.events {
+	padding: 10% 10% 2% 10%;
+	color: #f9f4ea;
+	border-top-right-radius:  2px;
+	border-top-left-radius:  2px;
+}
+
+.rev_sundays {
+	background-size: 550px;
+	background-image: linear-gradient(to top, rgba(249, 2, 146, 0.8), rgba(252, 23, 2, 0.8)),  url("../image/revolution_sundays.jpg");
+}
+
+
 .bgbody {
 	background-color: #f9f4ea;
 }
@@ -86,7 +123,7 @@ hr.haar_dun {
 }
 
 .bg-medium {
-	background-color: #f9f4ea;
+	background-color: #fffcf5;
 	/*background-image: linear-gradient(to bottom right, #FBFF12,  #F1E9DA, #F1E9DA,#F1E9DA, #F1E9DA, #FBFF12);*/
 	color: #541388;
 	border: none;
@@ -95,7 +132,7 @@ hr.haar_dun {
 }
 
 .bg-yellow {
-	background-color: #fffcf5;
+	background-color: white;
 }
 
 
