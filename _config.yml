@@ -1,11 +1,11 @@
 # Site settings
-title: Anouk Ruhaak
-email: hello@anoukruhaak.com
-description: Portfolio Site Anouk Ruhaak.
+title: Radical Incubator
+email: hello@radicalincubator.com
+description: Radical Incubator
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://anoukruhaak.com" # the base hostname & protocol for your site
-twitter_username: anoukruhaak
-github_username:  anoukruhaak
+url: "http://radicalincubator.com" # the base hostname & protocol for your site
+twitter_username: radicalincubator
+github_username:  radicalincubator
 
 # Build settings
 markdown: kramdown
