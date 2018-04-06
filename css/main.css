@@ -30,7 +30,7 @@ footer {
 
 .title_event{
 	background-size: 580px;
-	background-image: linear-gradient(to top, rgba(249, 2, 146, 0.8), rgba(252, 23, 2, 0.8)),  url("../image/revolution_sundays.jpg");
+/*	background-image: linear-gradient(to top, rgba(249, 2, 146, 0.9), rgba(249, 2, 146, 0.9)),  url("../image/revolution_sundays.jpg");*/
 	background-color: #2f1b2a;
 	color: #fcfde0;
 
@@ -106,7 +106,7 @@ hr.haar {
 	border: 0;
     height: 15px;
     width: 100vw;
-    background: #FBFF12;
+    background: #fd4850;
     margin: 0 auto;
 }
 
@@ -138,8 +138,9 @@ hr.haar_fijn {
 }
 
 .bg-yellow {
-	color: #2f1b2a;
-	background-color: #FBFF12;
+	color: white;
+/*	background-color: #FBFF12;*/
+	background-color: #fd4850;
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 2%;
