@@ -30,16 +30,20 @@ footer {
 
 .title_event{
 	background-size: 580px;
-/*	background-image: linear-gradient(to top, rgba(249, 2, 146, 0.9), rgba(249, 2, 146, 0.9)),  url("../image/revolution_sundays.jpg");*/
 	background-color: #2f1b2a;
-	color: #fcfde0;
+	color: #FBFF12;
 
 }
+
 
 .events h3 {
 	font-weight: 600;
+	color: #f8f9d8;
 }
 
+.events h5 {
+	color: #FBFF12;
+}
 
 .events-text {
 	border-bottom-right-radius: 2px;
@@ -116,23 +120,23 @@ hr.haar-top {
 
 hr.haar-l {
 	border: 0;
-    height: 50px;
-    width: 0vw;
-    background: #fd4850;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+	border: 0;
+    height: 30px;
+    width: 10vw;
+    background: #FBFF12;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    margin-left: 90vw;
 }
 
 hr.haar-r {
 	border: 0;
-    height: 15px;
+    height: 30px;
     width: 10vw;
     background: #FBFF12;
     margin-top: 0vh;
     margin-bottom: 0vh;
     margin-left: 0;
-    padding-bottom: -100px;
 }
 
 hr.haar-fijn {
@@ -162,12 +166,15 @@ hr.haar-fijn {
 }
 
 .bg-dark {
-
-	color: #f9fbc3;
+	color: #f8f9d8;
 	background-color: #2f1b2a;
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 2%;
+}
+
+.bg-dark strong {
+	color: #FBFF12;
 }
 
 .name {
