@@ -123,7 +123,7 @@ hr.haar-l {
 	border: 0;
     height: 30px;
     width: 10vw;
-    background: #FBFF12;
+    background: none;
     margin-top: 0vh;
     margin-bottom: 0vh;
     margin-left: 90vw;
@@ -133,7 +133,7 @@ hr.haar-r {
 	border: 0;
     height: 30px;
     width: 10vw;
-    background: #FBFF12;
+    background: none;
     margin-top: 0vh;
     margin-bottom: 0vh;
     margin-left: 0;
@@ -145,6 +145,26 @@ hr.haar-fijn {
     width: 100vw;
     background: #fd4850;
     margin: 0 auto;
+}
+
+hr.haar-fijn-2 {
+	border: 0;
+    height: 2px;
+    width: 10vw;
+    background: #FBFF12;
+    margin: 0 auto;
+    margin-left: 3vw;
+}
+
+hr.haar-h {
+	border: 0;
+    height: 5px;
+    width: 18vw;
+    background: #FBFF12;
+    margin-top: 0;
+    margin-left: 0;
+/*    margin: 0 auto;
+    margin-bottom: 5px;*/
 }
 
 .bg-medium {
@@ -165,16 +185,27 @@ hr.haar-fijn {
 	padding-bottom: 2%;
 }
 
+.bg-red {
+	color: white;
+	background-color: rgba(252, 23, 2, 1.0);
+	border: none;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	z-index: 1000;
+}
+
+.bg-red strong {
+	color: white;
+	font-weight: 700;
+}
+
 .bg-dark {
-	color: #f8f9d8;
+	color: white;
 	background-color: #2f1b2a;
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 2%;
-}
-
-.bg-dark strong {
-	color: #FBFF12;
+	z-index: 1000;
 }
 
 .name {
@@ -223,18 +254,14 @@ hr.haar-fijn {
 
 
 .elem-margin {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	padding-top: 20px;
-	margin-left: 4vw;
-	margin-right: 4vw;
 }
 
 .first-elem{
 	padding-top: 0px;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	margin-left: 4vw;
-	margin-right: 4vw;
 	color:white;
 }
 
@@ -339,5 +366,24 @@ header {
 .contact-align {
 	text-align: center;
 }
+
+.nav-bottom {
+	background-color: rgba(252, 23, 2, 1.0);
+	color: white;
+	width: 100vw;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.nav-bottom a{
+	color: white;
+	text-decoration: underline;
+}
+
+.nav-bottom a:hover {
+	color: white;
+	font-weight: 500;
+}
+
 
 
