@@ -1,8 +1,8 @@
 body {
   	font-weight: 300;
-  	font-family: 'Roboto Mono', monospace;
+  	  	font-family: 'Rubik', sans-serif;
   	color:white;
-  	background-color: #2f1b2a;
+  	background-color: #008148;
 }
 
 body a {
@@ -28,49 +28,48 @@ footer {
 	color: white;
 }
 
-.title_event{
-	background-size: 580px;
-	background-color: #2f1b2a;
-	color: #FBFF12;
 
+button {
+	background-color: white;
+	color: rgba(2, 2, 2, 0.8);
+	height: 50px;
+	width: 220px;
+	border-radius: 3px;
+	border:none;
 }
 
 
 .events h3 {
 	font-weight: 600;
-	color: #f8f9d8;
+	color: white;
 }
 
 .events h5 {
-	color: #FBFF12;
+	color: white;
 }
 
-.events-text {
-	border-bottom-right-radius: 2px;
-	border-bottom-left-radius: 2px;
-	padding: 1% 10% 2% 10%;
-	color: #2f1b2a;
-	background-color: #f9f4ea;
-	margin-bottom: 15%;
-}
-
-.events-text p {
-	font-size: 0.85rem;
-	height: 22vh;
-}
 
 .events {
-	padding: 10% 10% 2% 10%;
-	color: #f9f4ea;
-	border-top-right-radius:  2px;
-	border-top-left-radius:  2px;
+	color: white;
+	background-color: rgba(255,255,255, 0.1);
+	padding: 20px;
+	height: 300px;
+	margin: 0 auto;
 }
 
-.rev_sundays {
-	background-size: 550px;
-	background-image: linear-gradient(to top, rgba(249, 2, 146, 0.8), rgba(252, 23, 2, 0.8)),  url("../image/revolution_sundays.jpg");
+.events-img {
+	height: 300px;
+	padding: 20px;
 }
 
+.img-rev {
+	background-image: url("../image/revolution_sundays.jpg");
+	background-size: 600px;
+}
+
+.events p {
+	margin-top: 1em;
+}
 
 .bgbody {
 	background-color: #f9f4ea;
@@ -121,7 +120,7 @@ hr.haar-top {
 hr.haar-l {
 	border: 0;
 	border: 0;
-    height: 30px;
+    height: 40px;
     width: 10vw;
     background: none;
     margin-top: 0vh;
@@ -131,7 +130,7 @@ hr.haar-l {
 
 hr.haar-r {
 	border: 0;
-    height: 30px;
+    height: 40px;
     width: 10vw;
     background: none;
     margin-top: 0vh;
@@ -141,26 +140,26 @@ hr.haar-r {
 
 hr.haar-fijn {
 	border: 0;
-    height: 15px;
+    height: 10px;
     width: 100vw;
-    background: #fd4850;
+    background: #FFE900;
     margin: 0 auto;
 }
 
 hr.haar-fijn-2 {
 	border: 0;
-    height: 2px;
-    width: 10vw;
-    background: #FBFF12;
+    height: 5px;
+    width: 100vw;
+    background: #FFE900;
     margin: 0 auto;
-    margin-left: 3vw;
+    margin-left: 0vw;
 }
 
 hr.haar-h {
 	border: 0;
     height: 5px;
     width: 18vw;
-    background: #FBFF12;
+    background: rgba(249, 2, 146, 1.0);
     margin-top: 0;
     margin-left: 0;
 /*    margin: 0 auto;
@@ -201,22 +200,27 @@ hr.haar-h {
 
 .bg-dark {
 	color: white;
-	background-color: #2f1b2a;
+	background-color: #008148;
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	z-index: 1000;
 }
 
+.bg-dark a {
+	font-weight: 300;
+	color:#FFE900;
+}
+
 .name {
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 600;
-	font-size: 2.5rem;
+	font-size: 3.0rem;
 	color: white;
 }
 
 .bg-image {
-	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.85), rgba(252, 23, 2, 0.9)), url("../image/underground_sm.jpeg");
+	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.9), rgba(252, 23, 2, 0.9)), url("../image/underground_sm.jpeg");
 }
 
 .small_image {
@@ -260,9 +264,15 @@ hr.haar-h {
 
 .first-elem{
 	padding-top: 0px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 	color:white;
+}
+
+.first-elem p {
+	background-color: rgba(0,0,0, 0.1);
+	padding: 10px;
+
 }
 
 @media screen and (max-width: 920px) {
@@ -368,15 +378,15 @@ header {
 }
 
 .nav-bottom {
-	background-color: rgba(252, 23, 2, 1.0);
+	background-color: #034732;
 	color: white;
+	font-weight: 500;
 	width: 100vw;
-	padding-left: 5%;
-	padding-right: 5%;
 }
 
 .nav-bottom a{
 	color: white;
+	font-weight: 700;
 	text-decoration: underline;
 }
 
