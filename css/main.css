@@ -1,12 +1,13 @@
 body {
   	font-weight: 300;
-  	  	font-family: 'Rubik', sans-serif;
+  	font-family: 'Rubik', sans-serif;
   	color:white;
-  	background-color: #008148;
+  	background-color: #034732;
 }
 
 body a {
 	color: rgba(249, 2, 146, 1.0);
+	font-weight: 400;
 
 }
 
@@ -30,45 +31,54 @@ footer {
 
 
 button {
-	background-color: white;
-	color: rgba(2, 2, 2, 0.8);
+	background-color: rgba(249, 2, 146, 1.0);
 	height: 50px;
 	width: 220px;
 	border-radius: 3px;
 	border:none;
 }
 
-
-.events h3 {
-	font-weight: 600;
+button a {
 	color: white;
 }
 
+.logo {
+	font-weight: 700;
+}
+.events h3 {
+	font-weight: 600;
+}
+
 .events h5 {
-	color: white;
 }
 
 
 .events {
-	color: white;
-	background-color: rgba(255,255,255, 0.1);
+	color: black;
+	background-color: white;
 	padding: 20px;
 	height: 300px;
 	margin: 0 auto;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
+
 
 .events-img {
 	height: 300px;
 	padding: 20px;
+	border-top-left-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
 
 .img-rev {
-	background-image: url("../image/revolution_sundays.jpg");
-	background-size: 600px;
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)), url("../image/RS3.jpg");
+	background-size: 400px;
 }
 
-.events p {
-	margin-top: 1em;
+.img-hack {
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../image/RS7.jpg");
+	background-size: 400px;
 }
 
 .bgbody {
@@ -148,7 +158,7 @@ hr.haar-fijn {
 
 hr.haar-fijn-2 {
 	border: 0;
-    height: 5px;
+    height: 10px;
     width: 100vw;
     background: #FFE900;
     margin: 0 auto;
@@ -207,21 +217,17 @@ hr.haar-h {
 	z-index: 1000;
 }
 
-.bg-dark a {
-	font-weight: 300;
-	color:#FFE900;
-}
 
 .name {
-	font-family: 'IBM Plex Mono', monospace;
-	font-weight: 600;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
 	font-size: 3.0rem;
 	color: white;
 }
 
 .bg-image {
-	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.9), rgba(252, 23, 2, 0.9)), url("../image/underground_sm.jpeg");
-}
+	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.85), rgba(252, 23, 2, 0.85)), url("../image/underground_sm.jpeg");
+}	
 
 .small_image {
 	background-image: url("../image/underground_sm.jpeg");
@@ -266,13 +272,25 @@ hr.haar-h {
 	padding-top: 0px;
 	margin-bottom: 40px;
 	margin-top: 40px;
-	color:white;
+	color: white;
 }
 
-.first-elem p {
-	background-color: rgba(0,0,0, 0.1);
-	padding: 10px;
+.first-elem {
+	background-color: rgba(255,233,0,0.1);
+}
 
+
+.first-elem a {
+	color: #321325;
+	font-weight: 500;
+}
+
+.first-elem a:hover {
+	color:#F90292;
+}
+
+.first-elem button {
+	background-color: white;
 }
 
 @media screen and (max-width: 920px) {
@@ -312,15 +330,9 @@ hr.haar-h {
 	padding-bottom: 5px;
 	padding-top: 5px;
 	color: #9a69d8;
+	background-color: #034732;
 }
 
-.first-elem a {
-	color: #f0f7f6;
-}
-
-.first-elem a:hover {
-	color: #321325;
-}
 
 .icon-fa {
 	color: white;
@@ -378,7 +390,7 @@ header {
 }
 
 .nav-bottom {
-	background-color: #034732;
+	background-color: #008148;
 	color: white;
 	font-weight: 500;
 	width: 100vw;
