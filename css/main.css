@@ -36,6 +36,8 @@ button {
 	width: 220px;
 	border-radius: 3px;
 	border:none;
+	color: white;
+	font-weight: 400;
 }
 
 button a {
@@ -280,17 +282,14 @@ hr.haar-h {
 }
 
 
-.first-elem a {
-	color: #321325;
-	font-weight: 500;
-}
-
 .first-elem a:hover {
 	color:#F90292;
 }
 
 .first-elem button {
 	background-color: white;
+	color: #321325;
+	font-weight: 500;
 }
 
 @media screen and (max-width: 920px) {
