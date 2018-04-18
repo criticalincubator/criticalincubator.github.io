@@ -3,7 +3,7 @@ title: Critical Incubator
 email: hello@criticalincubator.com
 description: critical Incubator
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://criticalincubator.com" # the base hostname & protocol for your site
+url: "http://www.criticalincubator.com" # the base hostname & protocol for your site
 twitter_username: criticalincubator
 github_username:  criticalincubator
 
