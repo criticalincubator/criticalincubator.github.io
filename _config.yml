@@ -1,11 +1,11 @@
 # Site settings
-title: Radical Incubator
-email: hello@radicalincubator.com
-description: Radical Incubator
+title: Critical Incubator
+email: hello@criticalincubator.com
+description: critical Incubator
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://radicalincubator.com" # the base hostname & protocol for your site
-twitter_username: radicalincubator
-github_username:  radicalincubator
+url: "http://criticalincubator.com" # the base hostname & protocol for your site
+twitter_username: criticalincubator
+github_username:  criticalincubator
 
 # Build settings
 markdown: kramdown
