@@ -73,14 +73,55 @@ button a {
 	border-bottom-right-radius: 3px;
 }
 
+.advisors h3 {
+	font-weight: 600;
+}
+
+.advisors {
+	color: black;
+	padding: 0px;
+	height: 300px;
+	margin: 0 auto;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+
+.advisor-img {
+	height: 10vh;
+	width: 10vh;
+	padding: 50px;
+	border-radius: 75px;
+}
+
 .img-rev {
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)), url("../image/RS3.jpg");
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)), url("../image/RS7.jpg");
 	background-size: 400px;
 }
 
 .img-hack {
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../image/RS7.jpg");
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../image/CI_image_1.jpg");
 	background-size: 400px;
+}
+
+.img-eric {
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../image/eric.jpeg");
+	background-size: 100px;
+}
+
+.img-zarinah {
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../image/zarinah.jpg");
+	background-size: 100px;
+}
+
+.img-nick {
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../image/nick.jpg");
+	background-size: 100px;
+}
+
+.img-anouk {
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../image/anouk.jpg");
+	background-size: 100px;
 }
 
 .bgbody {
@@ -228,7 +269,7 @@ hr.haar-h {
 }
 
 .bg-image {
-	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.85), rgba(252, 23, 2, 0.85)), url("../image/underground_sm.jpeg");
+	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.65), rgba(252, 23, 2, 0.65)), url("../image/CI_image_1.jpg");
 }	
 
 .small_image {
@@ -278,7 +319,7 @@ hr.haar-h {
 }
 
 .first-elem {
-	background-color: rgba(255,233,0,0.1);
+/*	background-color: rgba(255,233,0,0.1);*/
 }
 
 
@@ -313,6 +354,17 @@ hr.haar-h {
 		margin-left: 1vw;
 		margin-right: 1vw;
 	}
+
+	.advisors {
+		height: 500px;
+		margin: 20px
+	}
+
+	.events {
+		height: 400px;
+		margin: 20px
+	}
+
 }
 
 .text-purple {
